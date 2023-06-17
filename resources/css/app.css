@@ -1,2 +1,7 @@
 @import 'bootstrap';
 @import 'bootstrap-icons';
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+}
