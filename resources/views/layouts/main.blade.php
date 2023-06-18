@@ -7,18 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title ?? '' }}</title>
 
-    <link rel="icon" type="image/x-icon" href="\img\book_favicon.ico">
+    <link rel="icon" type="image/x-icon" href="\img\check-mark.ico">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
 
 <body class="container-fluid min-vh-100 p-0">
-    {{-- <x-navbar /> --}}
+    <x-navbar />
 
     <main class="container min-vh-84 pt-5 px-5">
         {{ $slot }}
     </main>
+
+    <x-footer />
 
 </body>
 

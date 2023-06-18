@@ -13,7 +13,7 @@
                     <div class="form-floating mb-3">
                         <input class="form-control" id="title" wire:model="title" type="text"
                             value="{{ old('title') }}" placeholder="Title Task">
-                        <label for="title">Task's Title</label>
+                        <label for="title">Title</label>
                         @error('title')
                             <span class="error text-danger">
                                 {{ $message }}
@@ -21,10 +21,9 @@
                         @enderror
                     </div>
 
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="description" wire:model="description" type="text"
-                            value="{{ old('description') }}" placeholder="Description Task">
-                        <label for="description">Task's Description</label>
+                    <div class="form mb-3">
+                        <textarea class="form-control" id="description" name="description"
+                        value="{{ old('description') }}" placeholder="Description" rows="8"></textarea>
                         @error('description')
                             <span class="error text-danger">
                                 {{ $message }}

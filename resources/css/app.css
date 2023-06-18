@@ -5,3 +5,22 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-weight: bold;
 }
+
+/* ! HELPER */
+
+.min-vh-84 {
+    min-height: 84.4vh;
+}
+
+/* ! NAVBAR */
+
+.navbar-brand {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar-brand img {
+    margin-top: -0.5rem;
+    margin-right: 1rem;
+}
