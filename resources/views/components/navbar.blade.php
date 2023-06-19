@@ -9,9 +9,9 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item me-3">
                         <a class="btn btn-primary px-4 fw-semibold @if (Route::currentRouteName() == route('tasks.create')) active @endif"
-                            href="{{ route('tasks.create') }}">Add Task <i class="bi bi-plus-circle"></i>
+                            href="{{ route('tasks.create') }}">CREA TASK <i class="bi bi-plus-circle ms-1"></i>
                         </a>
-                    </li>
+                    </li>          
             </ul>
         </div>
     </div>

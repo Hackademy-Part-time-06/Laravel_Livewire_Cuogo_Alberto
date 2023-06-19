@@ -1,5 +1,6 @@
 @import 'bootstrap';
 @import 'bootstrap-icons';
+@import './404.css';
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
@@ -8,8 +9,28 @@ h1 {
 
 /* ! HELPER */
 
+.btn:active {
+    border-color: transparent !important;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
 .min-vh-84 {
     min-height: 84.4vh;
+}
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-10 {
+    width: 10%;
 }
 
 /* ! NAVBAR */

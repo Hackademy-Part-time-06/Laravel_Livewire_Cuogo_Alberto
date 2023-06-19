@@ -11,6 +11,8 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+    @livewireStyles
+
 </head>
 
 <body class="container-fluid min-vh-100 p-0">
@@ -21,6 +23,8 @@
     </main>
 
     <x-footer />
+
+    @livewireScripts
 
 </body>
 

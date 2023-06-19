@@ -1,3 +1,9 @@
 <x-main>
-    <x-slot name="title">TO DO LIST | All Tasks</x-slot>
+    <x-slot name="title">TO DO LIST | Tutti i Task</x-slot>
+
+    <livewire:task-index-list />
+
+    <x-session />
+
+
 </x-main>
