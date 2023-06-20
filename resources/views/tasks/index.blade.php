@@ -3,7 +3,4 @@
 
     <livewire:task-index-list />
 
-    <x-session />
-
-
 </x-main>

@@ -37,7 +37,7 @@ class TaskIndexList extends Component
 
     public function render()
     {
-        $tasks = Task::orderBy('level', 'desc')->orderBy('created_at', 'desc')->get();
+        $tasks = Task::orderBy('status', 'asc')->orderBy('level', 'desc')->orderBy('created_at', 'desc')->get();
 
         return view('livewire.task-index-list', compact('tasks'));
     }

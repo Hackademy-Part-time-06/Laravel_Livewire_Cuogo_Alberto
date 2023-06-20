@@ -1,4 +1,4 @@
-<div class="container px-5">
+<div class="container px-0 px-md-auto">
     <div class=" rounded-3 py-4 px-4 px-md-5 mb-5">
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-8 col-xl-6">
